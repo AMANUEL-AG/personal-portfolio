@@ -1,0 +1,150 @@
+{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Home Section */
+        #home {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('abc.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 30px;
+            object-fit: cover;
+        }
+
+        /* About Section */
+        #about {
+            padding: 100px 20%;
+            background: white;
+            color: navy;
+            line-height: 1.6;
+        }
+
+        /* Skills Section */
+        #skills {
+            padding: 100px 5%;
+            background: navy;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .skill-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            color: navy;
+        }
+
+        .skill-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        /* Accomplishments Section */
+        #accomplishments {
+            padding: 100px 20%;
+            background: white;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .accomp-text {
+            flex: 1;
+            color: navy;
+        }
+
+        .accomp-img {
+            flex: 1;
+            max-width: 500px;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 100px 20%;
+            background: navy;
+            color: white;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 2px solid white;
+            border-radius: 5px;
+            background: navy;
+            color: white;
+        }
+
+        button {
+            background: white;
+            color: navy;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: navy;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 15px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        section {
+            min-height: 100vh;
+            padding: 50px 0;
+        }
+
+        h1 {
+            font-size: 4em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
